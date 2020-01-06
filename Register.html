@@ -1,0 +1,31 @@
+	<div class="banner">
+    <div class="bg-color">
+	<div class="container">
+			<div class="row">
+					<div class="reg">
+	<h1>Registration Form</h1>
+	<div class="for">
+	<form>
+		<p>Firstname</p><input type="text" size="40px" ng-model="Firstname" /><br>
+		<p>Lastname</p><input type="text" size="40px" ng-model="Lastname" /><br>
+		<p>Username</p><input type="text" size="40px" ng-model="Username" /><br>
+		<p>Password</p><input type="password" size="40px" ng-model="Password" /><br>
+		<p>Contact</p><input type="text" size="40px" maxlength="10" ng-model="Contact" /><br>
+		<p>Email</p><input type="text" size="40px" ng-model="Email" /><br>
+		<p>Address</p><input type="text" size="40px" ng-model="Address" /><br>
+		<p>Gender</p>
+		<br>Male<input type="radio" name="gender" size="40px"ng-model="Gender" value="M">
+		Female<input type="radio" name="gender" size="40px" ng-model="Gender" value="F"><br><br><br>
+		<p>Role</p>
+		<br>Tutor<input type="radio" name="role" size="40px"ng-model="Role" value="T">
+		Student<input type="radio" name="role" size="40px" ng-model="Role" value="S"><br><br><br>
+		<button type="button" value="submit" size="60px" ng-click="postdata(Firstname,Lastname,Username,Password,Contact,Email,Address,Gender,Role)">Submit</button>
+		
+	</form>
+	</div>
+	</div>
+	</div>
+	</div>
+    </div>
+	</div>
+
